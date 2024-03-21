@@ -1,0 +1,23 @@
+{
+  "name": "com.bunnycodingdev.ui-toolkit-menu-toolkit",
+  "version": "0.0.1",
+  "displayName": "UI Toolkit Menu Toolkit",
+  "description": "This package contains a toolkit to build a basic menu structure for your game.",
+  "unity": "2023.2",
+  "unityRelease": "5f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+    "com.bunnycodingdev.ui-toolkit-utilities": "https://github.com/BunnyDad18/UI-Toolkit-Utilities.git"
+  },
+  "keywords": [
+    "UI Toolkit",
+    "Menus"
+  ],
+  "author": {
+    "name": "Bunny Coding Dev",
+    "email": "bunnycodingdev@gmail.com",
+    "url": ""
+  }
+}

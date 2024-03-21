@@ -1,0 +1,16 @@
+{
+    "name": "bunnycodingdev.ui-toolkit-menu-toolkit.runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:a0fbfebee339cee47b10518a396d52f3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
