@@ -5,14 +5,17 @@ using UnityEngine.UIElements;
 
 public class StartMenu : MenuPanel
 {
+    public new class UxmlFactory : UxmlFactory<StartMenu, UxmlTraits> { }
+
     public StartMenu() : base()
     {
-        new Label() { text = "Game Name" }.Parent(this);
-        new Button() { text = "Start" }.Parent(this);
-        new Button() { text = "Continue" }.Parent(this);
-        new Button() { text = "Options" }.Parent(this);
-        new Button() { text = "Credits" }.Parent(this);
-        new Button() { text = "Quit" }.Parent (this);
+        this.AddToClassList("menu-panel-full");
+        new Label() { text = "Game Name" }.Parent(this).AddToClassList<Label>("menu-panel-title");
+        new Button() { text = "Start" }.Parent(this).AddToClassList<Button>("menu-panel-button");
+        new Button() { text = "Continue" }.Parent(this).AddToClassList<Button>("menu-panel-button");
+        new Button() { text = "Options" }.Parent(this).AddToClassList<Button>("menu-panel-button");
+        new Button() { text = "Credits" }.Parent(this).AddToClassList<Button>("menu-panel-button");
+        new Button() { text = "Quit" }.Parent (this).AddToClassList<Button>("menu-panel-button");
     }
 }
 
